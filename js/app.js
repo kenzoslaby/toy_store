@@ -27,37 +27,37 @@ button.addEventListener("click", toggle);
 const animalToys = [
     {
         id: 1,
-        img: '../images/teddy.png',
+        img: '../images/teddy.webp',
         title: 'Teddy Bear',
         price: 30
     },
     {
         id: 2,
-        img: '../images/plush.png',
+        img: '../images/plush.webp',
         title: 'Mega Plush Toy',
         price: 38
     },
     {
         id: 3,
-        img: '../images/dog.png',
+        img: '../images/dog.webp',
         title: 'Cute Dog',
         price: 24
     },
     {
         id: 4,
-        img: '../images/little.png',
+        img: '../images/little.webp',
         title: 'Little Friend',
         price: 27
     },
     {
         id: 5,
-        img: '../images/teddy.png',
+        img: '../images/teddy.webp',
         title: 'Teddy Bear',
         price: 30
     },
     {
         id: 6,
-        img: '../images/plush.png',
+        img: '../images/plush.webp',
         title: 'Mega Plush Toy',
         price: 38
     },
@@ -71,7 +71,7 @@ animalToys.forEach(i => {
         <img
         class="w-44 h-44 mx-auto"
         src=${i.img}
-        alt="teddy"
+        alt="${i.title}"
         />
         <h3>${i.title}</h3>
         <button onclick="addToCard(${i.id})" class="btn-green-sm">$ ${i.price} USD</button>

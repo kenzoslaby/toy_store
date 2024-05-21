@@ -4,15 +4,15 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Toy Store || Kamron portfolio</title>
-    <link rel="icon" href="./images/teddy.png" sizes="32x32" />
+    <link rel="icon" href="./images/teddy.webp" sizes="32x32" />
 
     <meta name="description" content="Created by Kamron" />
     <meta name="keywords" content="toys , igrushki , teddy , plush , spiner , kamron-portfolio , kamron portfolio , kamron-toy-store , toy-store , front-toy-store" />
 
     <meta property="og:title" content="Toys Store" />
     <meta property="og:description" content="Created by Kamron" />
-    <meta property="og:image" content="https://kamron-toy-store.netlify.app/images/teddy.png" />
-    <meta property="og:image:type" content="image/png" />
+    <meta property="og:image" content="https://kamron-toy-store.netlify.app/images/teddy.webp" />
+    <meta property="og:image:type" content="image/webp" />
     <meta property="og:image:width" content="300" />
     <meta property="og:image:height" content="300" />
     <meta property="og:url" content="https://kamron-toy-store.netlify.app"></meta>
@@ -47,7 +47,7 @@
   <body>
     <div class="bg-green hidden md:block translate-x-0">
       <div
-        class="container flex justify-between items-center text-white text-xs py-2"
+        class="container flex justify-between items-center text-p text-xs py-2"
       >
         <ul class="flex space-x-5">
           <li>
@@ -101,16 +101,16 @@
           <nav class="hidden md:block">
             <ul class="flex space-x-6">
               <li>
-                <a href="#">Catalog</a>
+                <a href="#catalog">Catalog</a>
               </li>
               <li>
-                <a href="#">Delivery</a>
+                <a href="#delivery">Delivery</a>
               </li>
               <li>
-                <a href="#">About</a>
+                <a href="#about">About</a>
               </li>
               <li>
-                <a href="#">Contacts</a>
+                <a href="#send">Contacts</a>
               </li>
             </ul>
           </nav>
@@ -121,7 +121,7 @@
             <span>Cart</span>
             <i class="bi bi-cart"></i>
             <span
-              class="count bg-green w-5 h-5 grid place-content-center rounded-full text-white text-sm"
+              class="count bg-green w-5 h-5 grid place-content-center rounded-full text-p text-sm"
               >0</span
             >
           </button>
@@ -189,14 +189,14 @@
       </div>
     </section>
     <!-- catalog -->
-    <section>
+    <section id="catalog">
       <div class="container pt-10">
         <ul class="grid grid-cols-1 lg:grid-cols-2 gap-10 text-white">
           <li
             class="flex justify-center lg:justify-normal items-center bg-yellow rounded-2xl h-48 space-x-5">
             <img
               class="lg:-translate-y-12 w-40 md:w-52 h-40 md:h-52"
-              src="./images/teddy.png"
+              src="./images/teddy.webp"
               alt="teddy"/>
             <div class="space-y-3">
               <h3 class="text-2xl md:text-[28px]">Stuffed Animals</h3>
@@ -212,14 +212,14 @@
             </div>
             <img
               class="lg:-translate-y-12 w-40 md:w-52 h-40 md:h-52 -translate-x-5 lg:translate-x-0"
-              src="./images/wooden.png"
+              src="./images/flower.webp"
               alt="wooden"/>
           </li>
         </ul>
       </div>
     </section>
 <!-- animals -->
-    <section>
+    <section id="delivery">
       <div class="container">
         <div class="flex justify-between items-center">
           <h2>Stuffed Animals</h2>
@@ -251,75 +251,75 @@
             </button>
           </div>
         </div>
-        <div class="h-0.5 bg-[#E5E5E5] mt-8">
+        <!-- <div class="h-0.5 bg-[#E5E5E5] mt-8">
                     <div class="bg-green w-[136px] h-0.5"></div>
                     <ul class="swiper-wrapper animals-slide"></ul>
-                </div>
+                </div> -->
         <div class="swiper mySwiper2 mt-10">
           <ul class="swiper-wrapper  wooden-slider">
             <li role="item"class="swiper-slide">
               <img
                 class="w-44 h-44 mx-auto"
-                src="./images/flower.png"
+                src="./images/flower.webp"
                 alt="flower"/>
               <h3>Teddy Bear</h3>
-              <button class="btn-green-sm">$ 38.00 USD</button>
+              <button class="btn-green-sm">$ 38 USD</button>
             </li>
 
             <li role="item"class="swiper-slide">
               <img
                 class="w-44 h-44 mx-auto"
-                src="./images/lift.png"
+                src="./images/lift.webp"
                 alt="Lift Machine"/>
               <h3>Lift Machine</h3>
-              <button class="btn-green-sm">$ 24.00 USD</button>
+              <button class="btn-green-sm">$ 24 USD</button>
             </li>
 
             <li role="item"class="swiper-slide">
               <img
                 class="w-44 h-44 mx-auto"
-                src="./images/camera.png"
+                src="./images/camera.webp"
                 alt="Wooden Camera"/>
               <h3>Wooden Camera</h3>
-              <button class="btn-green-sm">$ 32.00 USD</button>
+              <button class="btn-green-sm">$ 32 USD</button>
             </li>
 
             <li role="item"class="swiper-slide">
               <img
                 class="w-44 h-44 mx-auto"
-                src="./images/rabbit.png"
+                src="./images/rabbit.webp"
                 alt="Little Rabbit"/>
               <h3>Little Rabbit</h3>
-              <button class="btn-green-sm">$ 16.00 USD</button>
+              <button class="btn-green-sm">$ 16 USD</button>
             </li>
 
             <li role="item"class="swiper-slide">
               <img
                 class="w-44 h-44 mx-auto"
-                src="./images/flower.png"
+                src="./images/flower.webp"
                 alt="Happy Flower"/>
               <h3>Happy Flower</h3>
-              <button class="btn-green-sm">$ 38.00 USD</button>
+              <button class="btn-green-sm">$ 38 USD</button>
             </li>
 
             <li role="item"class="swiper-slide">
               <img
                 class="w-44 h-44 mx-auto"
-                src="./images/lift.png"
+                src="./images/lift.webp"
                 alt="Lift Machine"/>
               <h3>Lift Machine</h3>
-              <button class="btn-green-sm">$ 24.00 USD</button>
+              <button class="btn-green-sm">$ 24 USD</button>
             </li>
           </ul>
         </div>
       </div>
     </section>
 <!-- video -->
-    <section
+    <section id="about"
       class="bg-video bg-cover h-[464px] flex items-center my-10 px-5 md:px-0"
     >
-      <div class="container  py-8 rounded-3xl">
-        <div class="w-full md:w-8/12 mx-auto text-center text-white space-y-3">
+      <div class="container  py-8 rounded-3xl backdrop-blur-sm">
+        <div class="w-full md:w-8/12 mx-auto text-center  text-blue space-y-3 ">
           <p>About The Shop</p>
           <h2>Watch Our Story</h2>
           <p>
@@ -347,7 +347,7 @@
           <div class="space-y-5 order-2 text-center md:text-left">
             <h3 class="text-3xl">Available for FREE!</h3>
 
-            <p class="text-gray md:w-9/12 text-sm">
+            <p class="text-p md:w-9/12 text-sm">
               A successful marketing plan relies heavily on the pulling-power of
               advertising copy. Writing result-oriented ad copy is difficult, as
               it must appeal to, entice, and convince consumers to take action.
@@ -364,7 +364,7 @@
       </div>
     </section>
 <!-- input -->
-    <section>
+    <section id="send">
       <div class="container">
         <div
           class="flex flex-col space-y-3 md:flex-row justify-between py-10 px-8 bg-white rounded-2xl shadow-card md:w-11/12 mx-auto">
@@ -396,22 +396,22 @@
 
         <ul class="grid grid-cols-3 md:grid-cols-6 gap-3 mt-10">
           <li>
-            <img src="./images/kitty.png" alt="" />
+            <img src="./images/kitty.webp" alt="" />
           </li>
           <li>
-            <img src="./images/flow.png" alt="flower" />
+            <img src="./images/flow.webp" alt="flower" />
           </li>
           <li>
-            <img src="./images/hand.png" alt="hand" />
+            <img src="./images/hand.webp" alt="hand" />
           </li>
           <li>
-            <img src="./images/cloud.png" alt="cloud" />
+            <img src="./images/cloud.webp" alt="cloud" />
           </li>
           <li>
-            <img src="./images/tarel.png" alt="tarel" />
+            <img src="./images/tarel.webp" alt="tarel" />
           </li>
           <li>
-            <img src="./images/monkey.png" alt="monkey" />
+            <img src="./images/monkey.webp" alt="monkey" />
           </li>
         </ul>
       </div>

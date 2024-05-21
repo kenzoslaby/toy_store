@@ -4,11 +4,13 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        'green': '#A5C926',
-        'yellow': '#FFC12C',
-        'pink': '#FB416B',
+        'green': '#a2c035',
+        'yellow': '#494e92',
+        'pink': '#992943',
         'gray': '#999999',
-        'body-bg': '#F8F8F8'
+        'body-bg': '#F8F8F8',
+        'p':'#5b5757',
+        'blue':'#486060'
       },
       boxShadow: {
         'card': '0px 1px 2px 0px #00000026'
