@@ -997,12 +997,12 @@ video {
 
 .bg-green {
   --tw-bg-opacity: 1;
-  background-color: rgb(192 230 55 / var(--tw-bg-opacity));
+  background-color: rgb(102 129 3 / var(--tw-bg-opacity));
 }
 
 .bg-pink {
   --tw-bg-opacity: 1;
-  background-color: rgb(153 41 67 / var(--tw-bg-opacity));
+  background-color: rgb(251 65 107 / var(--tw-bg-opacity));
 }
 
 .bg-red-600 {
@@ -1144,12 +1144,7 @@ video {
 
 .text-green {
   --tw-text-opacity: 1;
-  color: rgb(192 230 55 / var(--tw-text-opacity));
-}
-
-.text-p {
-  --tw-text-opacity: 1;
-  color: rgb(91 87 87 / var(--tw-text-opacity));
+  color: rgb(102 129 3 / var(--tw-text-opacity));
 }
 
 .text-white {
@@ -1245,7 +1240,7 @@ h3 {
 .btn-green {
   border-radius: 1.5rem;
   --tw-bg-opacity: 1;
-  background-color: rgb(192 230 55 / var(--tw-bg-opacity));
+  background-color: rgb(102 129 3 / var(--tw-bg-opacity));
   padding-left: 2rem;
   padding-right: 2rem;
   padding-top: 1rem;
@@ -1253,13 +1248,13 @@ h3 {
   font-size: 0.875rem;
   line-height: 1.25rem;
   --tw-text-opacity: 1;
-  color: rgb(71 85 105 / var(--tw-text-opacity));
+  color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
 .btn-green-sm {
   border-radius: 1.5rem;
   --tw-bg-opacity: 1;
-  background-color: rgb(192 230 55 / var(--tw-bg-opacity));
+  background-color: rgb(102 129 3 / var(--tw-bg-opacity));
   padding-left: 1rem;
   padding-right: 1rem;
   padding-top: 0.5rem;
@@ -1268,12 +1263,8 @@ h3 {
   font-size: 0.75rem;
   line-height: 1rem;
   --tw-text-opacity: 1;
-  color: rgb(23 37 84 / var(--tw-text-opacity));
+  color: rgb(255 255 255 / var(--tw-text-opacity));
 }
-
-/* .btn-green2-sm {
-  @apply bg-green2 text-white px-4 pt-2 pb-1.5 align-middle text-xs rounded-3xl;
-} */
 
 .btn-white {
   border-radius: 1.5rem;
@@ -1335,11 +1326,6 @@ section {
   padding-right: 1rem;
   font-size: 1.25rem;
   line-height: 1.75rem;
-}
-
-.backdrop\:blur-md::backdrop {
-  --tw-blur: blur(12px);
-  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
 }
 
 .before\:absolute::before {
