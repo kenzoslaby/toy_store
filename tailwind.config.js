@@ -6,11 +6,11 @@ module.exports = {
       colors: {
         'green': '#668103',
         'yellow': '#494e92',
-        'pink': '#992943',
+        'pink': '#FB416B',
         'gray': '#999999',
         'body-bg': '#F8F8F8',
         'p':'#5b5757',
-        'blue':'#486060'
+        'blue':'#FFC12C'
       },
       boxShadow: {
         'card': '0px 1px 2px 0px #00000026'

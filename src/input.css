@@ -23,11 +23,11 @@ h3 {
 }
 
 .btn-green {
-  @apply bg-green text-slate-600 px-8 py-4 text-sm rounded-3xl;
+  @apply bg-green text-white px-8 py-4 text-sm rounded-3xl;
 }
 
 .btn-green-sm {
-  @apply bg-green text-blue-950 px-4 pt-2 pb-1.5 align-middle text-xs rounded-3xl;
+  @apply bg-green text-white px-4 pt-2 pb-1.5 align-middle text-xs rounded-3xl;
 }
 
 .btn-white {
