@@ -9,7 +9,6 @@ module.exports = {
         'pink': '#FB416B',
         'gray': '#999999',
         'body-bg': '#F8F8F8',
-        'p':'#5b5757',
         'blue':'#FFC12C'
       },
       boxShadow: {
